@@ -25,8 +25,8 @@ You can get the library directly from PyPI:
 Usage
 -----
 
-Once you have installed the ``maxminddb-geolite2`` you can start using
-the database straight away:
+Once you have installed the ``maxminddb-geolite2`` package you can start
+using the database straight away:
 
 .. code-block:: pycon
 

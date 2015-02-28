@@ -28,6 +28,7 @@ class DatabaseInfo(object):
 
 
 class MaxMindDb(object):
+    """Provides access to the packaged GeoLite2 database."""
 
     def __init__(self, filename):
         self.filename = filename
