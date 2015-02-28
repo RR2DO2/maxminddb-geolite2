@@ -1,0 +1,2 @@
+include VERSION
+recursive-include _maxminddb_geolite2 *
