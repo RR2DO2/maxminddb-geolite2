@@ -50,8 +50,8 @@ class MaxMindDb(object):
     def get_info(self):
         return DatabaseInfo(
             filename=self.filename,
-            date=datetime.utcfromtimestamp(self.reader.metadata().build_epoch),
-            internal_name=self.reader.metadata().database_type,
+            date=datetime.utcfromtimestamp(self.reader().metadata().build_epoch),
+            internal_name=self.reader().metadata().database_type,
         )
 
     def _open_packaged_database(self):

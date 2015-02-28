@@ -1,10 +1,10 @@
 #!/bin/sh
 
-# cd _maxminddb_geolite2
-# rm *.mmdb
-# wget http://geolite.maxmind.com/download/geoip/database/GeoLite2-City.mmdb.gz
-# gunzip "GeoLite2-City.mmdb.gz"
-# cd ..
+cd _maxminddb_geolite2
+rm *.mmdb
+wget http://geolite.maxmind.com/download/geoip/database/GeoLite2-City.mmdb.gz
+gunzip "GeoLite2-City.mmdb.gz"
+cd ..
 
 export PYTHONPATH=`pwd`:`pwd`/..
 python -c "if 1:
