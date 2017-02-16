@@ -1,2 +1,2 @@
-include VERSION
+include README* VERSION LICENSE
 recursive-include _maxminddb_geolite2 *
