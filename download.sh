@@ -2,7 +2,7 @@
 
 cd _maxminddb_geolite2
 rm *.mmdb
-curl -O http://geolite.maxmind.com/download/geoip/database/GeoLite2-City.mmdb.gz
+curl -O https://geolite.maxmind.com/download/geoip/database/GeoLite2-City.mmdb.gz
 gunzip "GeoLite2-City.mmdb.gz"
 cd ..
 
