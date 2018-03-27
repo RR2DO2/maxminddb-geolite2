@@ -4,7 +4,7 @@ maxminddb-geolite2
 Description
 -----------
 
-maxminddb-geoip is a library that provides access to MaxMind's GeoIP2
+maxminddb-geolite2 is a library that provides access to MaxMind's GeoIP2
 databases.  It depends on the official MaxMind library for functionality,
 but it conveniently ships a recent version of the GeoLite2 City database
 as provided by MaxMind.
